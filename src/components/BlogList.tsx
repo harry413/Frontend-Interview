@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { getBlogs } from "../api/Blogs";
+import { getBlogs } from "../api/blogs";
 import BlogCard from "./BlogCard";
 import { Blog } from "../types/blog";
 
